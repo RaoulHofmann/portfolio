@@ -30,4 +30,14 @@ export default defineNuxtConfig({
       cssMinify: false
     },
   },
+  scripts: {
+    registry: {
+      // googleAnalytics: {
+      //   id: 'YOUR_ID',
+      // },
+      googleTagManager: {
+        id: 'GTM-W4JPWKJ7'
+      }
+    }
+  }
 })

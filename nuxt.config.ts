@@ -32,9 +32,9 @@ export default defineNuxtConfig({
   },
   scripts: {
     registry: {
-      // googleAnalytics: {
-      //   id: 'YOUR_ID',
-      // },
+      googleAnalytics: {
+        id: 'G-SD2XT1K807',
+      },
       googleTagManager: {
         id: 'GTM-W4JPWKJ7'
       }

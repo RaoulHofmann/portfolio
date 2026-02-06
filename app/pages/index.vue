@@ -409,12 +409,12 @@ const expertise = [
       <section :class="isMatrixMode ? 'matrix-section' : 'bg-white'" class="py-12">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
           <div class="flex items-baseline gap-4 mb-20">
-            <div :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display'"
+            <h2 :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display'"
                  :style="isMatrixMode ? 'color: #0f0' : 'color: rgb(24 24 27)'"
                  class="text-5xl lg:text-6xl font-bold">
               <span v-if="!isMatrixMode">Experience</span>
               <span v-else>>> WORK.HISTORY</span>
-            </div>
+            </h2>
             <div :style="isMatrixMode ? 'background: #0f0' : 'background: rgb(212 212 216)'" class="h-px flex-1"></div>
           </div>
 
@@ -477,7 +477,7 @@ const expertise = [
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
           <div class="flex items-baseline gap-8 mb-24">
             <h2 :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display text-zinc-50'"
-                class="text-5xl lg:text-7xl font-bold">
+                class="text-5xl lg:text-6xl font-bold">
               <span v-if="!isMatrixMode">Tech Stack</span>
               <span v-else>>> TECH.ARSENAL</span>
             </h2>
@@ -525,12 +525,12 @@ const expertise = [
       <section :class="isMatrixMode ? 'matrix-section' : 'bg-white'" class="py-12">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
           <div class="flex items-baseline gap-4 mb-20">
-            <div :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display'"
+            <h2 :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display'"
                  :style="isMatrixMode ? 'color: #0f0' : 'color: rgb(24 24 27)'"
                  class="text-5xl lg:text-6xl font-bold">
               <span v-if="!isMatrixMode">Education</span>
               <span v-else>>> TRAINING.LOG</span>
-            </div>
+            </h2>
             <div :style="isMatrixMode ? 'background: #0f0' : 'background: rgb(212 212 216)'" class="h-px flex-1"></div>
           </div>
 

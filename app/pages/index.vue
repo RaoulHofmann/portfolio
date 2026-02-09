@@ -586,7 +586,7 @@ const expertise = [
           <h2 :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display text-zinc-50'"
               class="text-6xl lg:text-7xl font-bold mb-8">
             <span v-if="!isMatrixMode">Let's Connect</span>
-            <span v-else>>> INITIATE.CONTACT</span>
+            <span v-else>>> CONTACT</span>
           </h2>
           <p :class="isMatrixMode ? 'font-mono matrix-text' : 'font-body text-zinc-400'"
              class="text-xl mb-12 max-w-2xl mx-auto">

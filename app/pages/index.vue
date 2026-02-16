@@ -539,7 +539,7 @@ const expertise = [
                  class="md:border-t-4 sm:pt-8">
               <div :class="isMatrixMode ? 'font-mono matrix-text' : 'font-body text-zinc-500'" class="text-sm mb-4">
                 <span v-if="!isMatrixMode">2017—2019</span>
-                <span v-else">[2017 -> 2019]</span>
+                <span v-else>[2017 -> 2019]</span>
               </div>
               <h3 :class="isMatrixMode ? 'font-mono matrix-glow' : 'font-display'"
                   :style="isMatrixMode ? 'color: #0f0' : 'color: rgb(24 24 27)'"
@@ -566,7 +566,7 @@ const expertise = [
                   :style="isMatrixMode ? 'color: #0f0' : 'color: rgb(24 24 27)'"
                   class="text-3xl font-bold mb-3">
                 <span v-if="!isMatrixMode">Federal VET Diploma</span>
-                <span v-else">VET.DIPLOMA</span>
+                <span v-else>VET.DIPLOMA</span>
               </h3>
               <div :class="isMatrixMode ? 'font-mono matrix-text' : 'font-body text-zinc-700'" class="text-xl mb-2">
                 <span v-if="!isMatrixMode">Information Technology</span>

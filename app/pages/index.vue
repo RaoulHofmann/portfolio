@@ -186,9 +186,9 @@ const experiences = [
     company: "City of Armadale",
     matrixCompany: "CITY.ARMADALE",
     description:
-      "Led development of municipal websites using Next.js. Architected AWS infrastructure with CDK, managing S3, CloudFront, ECS, and CodePipeline.",
+      "Led development of council websites using Next.js. Architected AWS infrastructure with CDK, managing S3, CloudFront, ECS, and CodePipeline.",
     matrixDescription:
-      ">> EXECUTE: Municipal web protocols via Next.js || AWS infrastructure deployment: S3 > CloudFront > ECS > CodePipeline || STATUS: OPERATIONAL",
+      ">> EXECUTE: Council web protocols via Next.js || AWS infrastructure deployment: S3 > CloudFront > ECS > CodePipeline || STATUS: OPERATIONAL",
     tech: ["NextJS", "AWS", "Python", "TypeScript"],
     matrixTech: ["[NEXT.JS]", "[AWS.CLOUD]", "[PY.THON]", "[TYPE.SCRIPT]"],
   },
@@ -345,6 +345,31 @@ const expertise = [
 ];
 
 const projects = [
+  {
+    title: "Offline Notes",
+    matrixTitle: "OFFLINE.NOTES",
+    url: "https://notes.raoulhofmann.xyz/",
+    description:
+      "A fully client-side rich text notes app that works entirely offline. Built with React and TipTap editor with a full SQLite database running in-browser via WebAssembly. Features markdown-style editing, tags, full-text search, and a service worker for complete offline operation with COOP/COEP isolation.",
+    matrixDescription:
+      ">> INIT: Offline.Notes.App || EDITOR: TipTap >> ProseMirror.Core || DB: SQLite.WASM >> Local.Only || STORAGE: Service.Worker >> Offline.Mode || TAGS: Search.Organize || STATUS: DEPLOYED",
+    tech: [
+      "React",
+      "TypeScript",
+      "TipTap",
+      "SQLite",
+      "WebAssembly",
+      "Tailwind CSS",
+    ],
+    matrixTech: [
+      "[REACT.LIB]",
+      "[TYPE.SCRIPT]",
+      "[TIPTAP.EDITOR]",
+      "[SQLITE.DB]",
+      "[WASM]",
+      "[TAILWIND.CSS]",
+    ],
+  },
   {
     title: "WA Curriculum Search",
     matrixTitle: "WA.CURRICULUM.SEARCH",
